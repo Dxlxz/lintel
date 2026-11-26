@@ -1,0 +1,18 @@
+Lintel
+Copyright 2026 Dale Jeffrey Gilimon
+
+This product includes software developed as Guardrails AI
+(https://github.com/guardrails-ai/guardrails), released under the
+Apache License, Version 2.0.
+
+Modifications in this distribution: the Python package and modules were
+renamed (guardrails -> lintel), the CLI entry point and environment
+variable prefix renamed accordingly, telemetry changed to opt-in with no
+default endpoint, the brand assets, README and documentation surface
+rebuilt.
+
+Third-party packages retained under their upstream names:
+  guardrails-ai-types   shared request/response schema types
+  guardrails-api        optional REST server backing `lintel start`
+
+The full license text is in LICENSE.

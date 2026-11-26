@@ -1,0 +1,19 @@
+{
+    "name": "server-ci",
+    "description": "basic guard template for oss server ci",
+    "template_version": "0.0.1",
+    "namespace": "lintel",
+    "guards": [
+        {
+            "id": "test-guard",
+            "name": "test-guard",
+            "validators": [
+                {
+                    "id": "lintel/two_words",
+                    "on": "$",
+                    "onFail": "fix"
+                }
+            ]
+        }
+    ]
+}
