@@ -171,6 +171,12 @@ tests/                        unit, integration and application tests
 - [ ] Redaction pipeline shipped as a built-in: detect → mask → record, no model call
 - [ ] Trace a guard run as OTel spans so it lands next to the LLM call it belongs to
 
+## See also
+
+**[Tessera](https://github.com/Dxlxz/tessera)** — the pipeline side: RAG built from MCP servers.
+**[Quorum](https://github.com/Dxlxz/quorum)** — the domain application: LLM investor agents under a risk desk,
+with every decision appended to a hash-chained ledger.
+
 ## License and lineage
 
 Apache-2.0 — see [LICENSE](./LICENSE) and [NOTICE](./NOTICE).
